@@ -1,0 +1,35 @@
+.a1 {
+  padding: 15px;
+  border: 2px solid black;
+  text-decoration: none;
+  color: black;
+}
+.a2 {
+  color: black;
+  text-decoration: underline;
+
+}
+.redtext {
+  color: red;
+}
+.fontosizo {
+  font-size: 15px;
+}
+.thirdpart {
+  background-color: rgb(247,247,247);
+  margin: 150px 20px 50px 20px;
+  padding: 50px 0;
+}
+.beforelast {
+  margin: 200px 0 0 0;
+  background-color: rgb(247,247,247);
+  padding: 50px 0;
+}
+.last {
+  background-color: red;
+  color: white;
+  padding: 40px 50px 40px 50px;
+}
+.mrgin {
+  margin-left: 50%;
+}

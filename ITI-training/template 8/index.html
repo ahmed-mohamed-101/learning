@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <style>
+/* -------------------------------!!!!!!!!!!!!!!!!!!!! please put the screen on 100% !!!!!!!!!!!!!!!!!!!!------------------------------- */
+/* -------------------------------!!!!!!!!!!!!!!!!!!!! please put the screen on 100% !!!!!!!!!!!!!!!!!!!!------------------------------- */
+    body {
+      background-color: rgb(4,180,224);
+    }
+/* -------------------------------left page start------------------------------- */
+    .leftPage {
+      position: fixed;
+      width: 25%;
+      height: 98%;
+      left: 1%;
+      background-color: #444444;
+      overflow: auto;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+    }
+    .leftPage .img1 {
+      margin-top: 30%;
+      margin-left: 37%;
+      border-radius: 50px;
+    }
+    .leftPage h1,h3 {
+      text-align: center;
+      font-weight: bold;
+      color: white;
+    }
+    .leftPage .img2 {
+      margin-top: 5%;
+      margin-bottom: 35%;
+      margin-left: 37%;
+    }
+    .leftPage a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+      border: 2px solid white;
+      border-radius: 20px;
+      margin-left: 33%;
+      box-shadow: 0 5px 5px black;
+    }
+    .leftPage p {
+      position:absolute;
+      left: 25%;
+      bottom: 5px;
+      color: white;
+      font-weight: bold;
+    }
+/* -------------------------------left page end------------------------------- */
+/* -------------------------------right page start---------------------------- */
+    .rightPage {
+      position: fixed;
+      overflow: auto;
+      background-color: rgb(34,34,34);
+      width: 75%;
+      height: 98%;
+      left: 24%;
+      border-radius: 20px;
+    }
+    .h1h3 {
+      height: 500px;
+      padding-top: 20%;
+    }
+    .h1h3 #firsth,#secondh {
+      text-align: center;
+      font-weight: bold;
+      color: white;
+      font-size: 50px;
+    }
+    .aboutMe {
+      margin-left: 10px;
+      margin-bottom: 200px;
+
+    }
+    .aboutMe h1{
+      color: rgb(4,180,224);
+    }
+    .floatChild {
+      color: white;
+      width: 50%;
+      float: left;
+    }
+    .floatChild2 {
+      margin: 0;
+    }
+    #firstlolo {
+      color: rgb(4,180,224);
+    }
+    .childTwo {
+      color: white;
+      width: 50%;
+      float: left;
+    }
+    .childThree {
+      color: white;
+      width: 50%;
+      float: left;
+    }
+    .whatIDo {
+      margin-left: 10px;
+      margin-bottom: 350px;
+    }
+    ul {
+      background-color: rgb(34,34,34);
+      list-style-type: none;
+      margin: 0;
+      margin-bottom: 20px;
+      padding: 0;
+      overflow: hidden;
+      position: sticky;
+      top: 0;
+    }
+    a {
+      display: block;
+      float: left;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      text-decoration: none;
+    }
+    .fchild {
+      margin: 15px;
+      width: 30%;
+      float: left;
+    }
+    .fchild2 {
+      margin: 15px;
+      width: 30%;
+      float: left;
+    }
+/* -------------------------------right page end------------------------------ */
+  </style>
+  <script>
+  </script>
+</head>
+<body>
+  <div class="leftPage">
+    <img class="img1" src="image/face.jpg" alt="" width="100px" height="100px"><br>
+
+    <h1>Alex smith</h1>
+
+    <h3>web designer</h3>
+
+    <img class="img2" src="image/social.jpg" alt="" width="100px" height="35px"><br>
+
+    <a href="#">Download CV</a><br>
+
+    <p>© 2022 All rights reserved.</p>
+  </div>
+
+  <div class="rightPage">
+
+    <div class="h1h3">
+      <h1 id="firsth">Alex smith</h1>
+      <h3 id="secondh">web designer</h3>
+    </div>
+
+    <div class="aboutMe">
+      <h1>About Me</h1>
+      <div class="floatChild">
+          Proin volutpat mauris ac pellentesque pharetra. Suspendisse congue elit vel odio suscipit, sit amet tempor nisl imperdiet.
+          Quisque ex justo, faucibus ut mi in, condimentum finibus dolor. Aliquam vitae hendrerit dolor, eget imperdiet mauris.
+          Maecenas et ante id ipsum condimentum dictum et vel massa. Ut in imperdiet dolor, vel consectetur dui.
+      </div>
+      <pre class="floatChild floatChild2">
+                Age: 32
+                Residence: USA
+                Address: 88 Some Street, Some Town
+                e-mail: email@example.com
+                Phone: +0123 123 456 789
+      </pre>
+    </div>
+
+    <div class="whatIDo">
+      <h1 id="firstlolo">What I DO</h1>
+      <div class="childTwo">
+        <h1>Ecommerce</h1>
+        <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales.</p>
+      </div>
+      <div class="childTwo">
+        <h1>Copywriting</h1>
+        <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales.</p>
+      </div>
+      <div class="childThree">
+        <h1>Web Design</h1>
+        <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales.</p>
+      </div>
+      <div class="childThree">
+        <h1>Management</h1>
+        <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales.</p>
+      </div>
+    </div>
+
+    <ul class="navbar">
+      <li><a href="#">All</a></li>
+      <li><a href="#">Detailed</a></li>
+      <li><a href="#">Mockups</a></li>
+      <li><a href="#">SoundCloud</a></li>
+      <li><a href="#">VemioVideos</a></li>
+      <li><a href="#">YouTubeVideos</a></li>
+    </ul>
+
+    <div>
+      <div class="fchild">
+        <img src="image/image1.jpg" alt="" width="250px" height="250px"><br>
+        <p style="color: white;">SoundCloud Audio</p>
+      </div>
+      <div class="fchild">
+        <img src="image/image3.jpg" alt="" width="250px" height="250px"><br>
+        <p style="color: white;">Detailed Project 2</p>
+      </div>
+      <div class="fchild">
+        <img src="image/image2.jpg" alt="" width="250px" height="250px"><br>
+        <p style="color: white;">Vimeo Video 1</p>
+      </div>
+      <div class="fchild2">
+        <img src="image/image2.jpg" alt="" width="250px" height="250px"><br>
+        <p style="color: white;">Detailed Project 1</p>
+      </div>
+      <div class="fchild2">
+        <img src="image/image1.jpg" alt="" width="250px" height="250px"><br>
+        <p style="color: white;">Mockup Design 1</p>
+      </div>
+      <div class="fchild2">
+        <img src="image/image3.jpg" alt="" width="250px" height="250px"><br>
+        <p style="color: white;">YouTube Video 1</p><br>
+      </div>
+    </div>
+
+    <iframe style="margin-left: 5%; margin-top: 400px;margin-bottom: 50px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26371661.85956456!2d-113.72360706725829!3d36.21040627051876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2seg!4v1675376442425!5m2!1sen!2seg" width="90%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</body>
+</html>
